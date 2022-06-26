@@ -7,6 +7,7 @@ import styles from './styles/global.css'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  
 
   function handleOpenMenu() {
     setIsOpen(!isOpen)
