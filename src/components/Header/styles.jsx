@@ -4,9 +4,12 @@ export const HeaderContent = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
-  padding: 20px;
+  padding: 20px 10%;
   color: #E2C792;
+
+  svg{
+    cursor: pointer;
+  }
 `;
 
 export const LeftContent = styled.div`

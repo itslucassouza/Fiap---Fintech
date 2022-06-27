@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 export const Extractcontent = styled.div`
     display: flex;
-    border: 1px solid red;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +16,7 @@ export const ExtractInfos = styled.section`
     justify-content: space-between;
     width: 80%;
     height: 50px;
+    margin-bottom: 10px;
     background: #fff;
 
 `
@@ -49,6 +49,7 @@ export const RightContent = styled.div`
 
 export const ContentInfos = styled.div`
     border-radius: 10px;
+
     padding: 10px 0;
     display: flex;
     flex-direction: column;
@@ -57,6 +58,7 @@ export const ContentInfos = styled.div`
     margin: 8px 0;
 
     p{
+        padding: 0 10px;
         margin: 3px;
     }
 `

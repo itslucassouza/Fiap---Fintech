@@ -9,7 +9,7 @@ export function Header({handleOpenMenu}) {
                 <p>Lucas</p>
             </LeftContent>
             <MidContent>
-                Extrato
+     
             </MidContent>
             <RightContent >
                 <BiMenuAltRight size={52} onClick={handleOpenMenu} />

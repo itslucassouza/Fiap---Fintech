@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className={styles}>
-      <Login />
+
       {isOpen ? (
         <Menu handleOpenMenu={handleOpenMenu} />
         ) : (
